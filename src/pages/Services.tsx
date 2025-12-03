@@ -1,44 +1,47 @@
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
-import { Search, Share2, Target, PenTool, Mail, TrendingUp, ArrowRight, Check } from "lucide-react";
+import { Globe, Smartphone, Palette, ArrowRight, Check } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: Search,
-    title: "SEO Optimization",
-    description: "Dominate search engine rankings with our comprehensive SEO strategies. We analyze, optimize, and track your progress to ensure sustained organic growth.",
-    features: ["Keyword Research & Strategy", "On-Page Optimization", "Technical SEO Audit", "Link Building", "Local SEO"],
+    icon: Globe,
+    title: "Website Development",
+    description:
+      "Design and build fast, responsive, SEO-friendly websites tailored to your brand and goals. From landing pages to full-scale web apps, we ship production-ready UI.",
+    features: [
+      "Custom UI & Frontend",
+      "Responsive & SEO-ready",
+      "CMS & Headless Integration",
+      "Performance Optimization",
+      "Deployment & Maintenance",
+    ],
   },
   {
-    icon: Share2,
-    title: "Social Media Marketing",
-    description: "Build authentic connections with your audience across all major platforms. We create engaging content and manage communities that convert.",
-    features: ["Platform Strategy", "Content Creation", "Community Management", "Influencer Marketing", "Paid Social Campaigns"],
+    icon: Smartphone,
+    title: "App Development",
+    description:
+      "End-to-end mobile and web app development with modern stacks. Scalable architecture, clean code, and smooth user experiences across platforms.",
+    features: [
+      "iOS/Android & PWA",
+      "API & Auth Integration",
+      "State & Data Layer",
+      "CI/CD & Testing",
+      "Analytics & Crash Reporting",
+    ],
   },
   {
-    icon: Target,
-    title: "PPC Advertising",
-    description: "Maximize your advertising ROI with precision-targeted campaigns. From Google Ads to Meta, we optimize every click for conversions.",
-    features: ["Google Ads Management", "Meta Advertising", "Retargeting Campaigns", "A/B Testing", "Conversion Tracking"],
-  },
-  {
-    icon: PenTool,
-    title: "Content Marketing",
-    description: "Tell your brand story through compelling content that educates, entertains, and converts. Strategy-driven content for every stage of the funnel.",
-    features: ["Content Strategy", "Blog Writing", "Video Production", "Infographics", "Whitepapers & eBooks"],
-  },
-  {
-    icon: Mail,
-    title: "Email Marketing",
-    description: "Nurture leads and retain customers with personalized email campaigns. Automated sequences that deliver the right message at the right time.",
-    features: ["Email Strategy", "Campaign Design", "Automation Setup", "List Segmentation", "A/B Testing"],
-  },
-  {
-    icon: TrendingUp,
-    title: "Analytics & Reporting",
-    description: "Make data-driven decisions with comprehensive analytics. We track, analyze, and report on metrics that matter to your business.",
-    features: ["Custom Dashboards", "Performance Tracking", "Competitor Analysis", "ROI Reporting", "Strategic Insights"],
+    icon: Palette,
+    title: "Designing",
+    description:
+      "Brand-first design systems and UX/UI that convert. Get cohesive visuals across web, app, and marketing touchpoints.",
+    features: [
+      "Brand Identity & Styleguide",
+      "Wireframes & Prototypes",
+      "UI Kits & Design Systems",
+      "Illustrations & Icons",
+      "Marketing Creatives",
+    ],
   },
 ];
 
@@ -62,8 +65,9 @@ const Services = () => {
               <span className="gradient-text"> Digital Solutions</span>
             </h1>
             <p className="text-muted-foreground text-lg">
-              From strategy to execution, we provide end-to-end digital marketing services 
-              that drive growth and deliver measurable results.
+              From strategy to execution, we provide end-to-end digital
+              marketing services that drive growth and deliver measurable
+              results.
             </p>
           </div>
         </div>
@@ -77,16 +81,20 @@ const Services = () => {
               <div
                 key={service.title}
                 className={`grid lg:grid-cols-2 gap-12 items-center ${
-                  index % 2 === 1 ? 'lg:flex-row-reverse' : ''
+                  index % 2 === 1 ? "lg:flex-row-reverse" : ""
                 }`}
               >
-                <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
+                <div className={index % 2 === 1 ? "lg:order-2" : ""}>
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center mb-6">
                     <service.icon className="w-8 h-8 text-primary" />
                   </div>
-                  <h2 className="text-3xl font-bold mb-4 text-foreground">{service.title}</h2>
-                  <p className="text-muted-foreground mb-6 leading-relaxed">{service.description}</p>
-                  
+                  <h2 className="text-3xl font-bold mb-4 text-foreground">
+                    {service.title}
+                  </h2>
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    {service.description}
+                  </p>
+
                   <ul className="space-y-3 mb-8">
                     {service.features.map((feature) => (
                       <li key={feature} className="flex items-center gap-3">
@@ -106,7 +114,7 @@ const Services = () => {
                   </Link>
                 </div>
 
-                <div className={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
+                <div className={`${index % 2 === 1 ? "lg:order-1" : ""}`}>
                   <div className="glass-card p-8 aspect-square flex items-center justify-center relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5" />
                     <service.icon className="w-32 h-32 text-primary/30" />
@@ -124,13 +132,14 @@ const Services = () => {
           <div className="glass-card p-12 md:p-16 text-center relative overflow-hidden">
             <div className="absolute top-0 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-[100px]" />
             <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-accent/20 rounded-full blur-[100px]" />
-            
+
             <div className="relative z-10">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Not Sure Which Service You Need?
               </h2>
               <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-                Let's discuss your goals and find the perfect combination of services for your business.
+                Let's discuss your goals and find the perfect combination of
+                services for your business.
               </p>
               <Link to="/contact">
                 <Button variant="gradient" size="lg" className="group">

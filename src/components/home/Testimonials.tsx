@@ -4,19 +4,22 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     role: "CEO, TechStart",
-    content: "DigiSpark transformed our online presence completely. Our organic traffic increased by 300% in just 6 months. The team is incredibly professional and results-driven.",
+    content:
+      "DigiMaxia transformed our online presence completely. Our organic traffic increased by 300% in just 6 months. The team is incredibly professional and results-driven.",
     rating: 5,
   },
   {
     name: "Michael Chen",
     role: "Marketing Director, GrowthCo",
-    content: "The best digital marketing agency we've worked with. Their PPC campaigns delivered exceptional ROI, and their communication is always top-notch.",
+    content:
+      "The best digital marketing agency we've worked with. Their PPC campaigns delivered exceptional ROI, and their communication is always top-notch.",
     rating: 5,
   },
   {
     name: "Emily Rodriguez",
     role: "Founder, StyleHub",
-    content: "From social media strategy to content creation, DigiSpark has been an invaluable partner. They truly understand our brand and audience.",
+    content:
+      "From social media strategy to content creation, Digimaxia has been an invaluable partner. They truly understand our brand and audience.",
     rating: 5,
   },
 ];
@@ -35,7 +38,8 @@ const Testimonials = () => {
             <span className="gradient-text"> Clients Say</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it – hear from the brands we've helped grow.
+            Don't just take our word for it – hear from the brands we've helped
+            grow.
           </p>
         </div>
 
@@ -67,8 +71,12 @@ const Testimonials = () => {
                   {testimonial.name.charAt(0)}
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground">{testimonial.name}</div>
-                  <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                  <div className="font-semibold text-foreground">
+                    {testimonial.name}
+                  </div>
+                  <div className="text-sm text-muted-foreground">
+                    {testimonial.role}
+                  </div>
                 </div>
               </div>
             </div>

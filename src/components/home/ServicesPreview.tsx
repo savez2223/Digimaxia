@@ -1,37 +1,25 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Search, Share2, Target, PenTool, Mail, TrendingUp, ArrowRight } from "lucide-react";
+import { Globe, Smartphone, Palette, ArrowRight } from "lucide-react";
 
 const services = [
   {
-    icon: Search,
-    title: "SEO Optimization",
-    description: "Dominate search rankings with data-driven SEO strategies that bring organic traffic.",
+    icon: Globe,
+    title: "Website Development",
+    description:
+      "Custom, fast and SEO-friendly websites tailored to your brand and business goals.",
   },
   {
-    icon: Share2,
-    title: "Social Media Marketing",
-    description: "Build engaged communities and amplify your brand across all social platforms.",
+    icon: Smartphone,
+    title: "App Development",
+    description:
+      "High-performance mobile and web apps with smooth user experience and modern tech stack.",
   },
   {
-    icon: Target,
-    title: "PPC Advertising",
-    description: "Maximize ROI with precision-targeted paid campaigns that convert.",
-  },
-  {
-    icon: PenTool,
-    title: "Content Marketing",
-    description: "Tell your story with compelling content that resonates with your audience.",
-  },
-  {
-    icon: Mail,
-    title: "Email Marketing",
-    description: "Nurture leads and drive conversions with personalized email campaigns.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Analytics & Insights",
-    description: "Make informed decisions with comprehensive data analysis and reporting.",
+    icon: Palette,
+    title: "Designing",
+    description:
+      "Clean, modern UI/UX and brand design that makes your business look professional and trustworthy.",
   },
 ];
 
@@ -49,7 +37,8 @@ const ServicesPreview = () => {
             <span className="gradient-text"> Grow Online</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive digital marketing solutions tailored to elevate your brand and achieve measurable results.
+            Comprehensive digital marketing solutions tailored to elevate your
+            brand and achieve measurable results.
           </p>
         </div>
 

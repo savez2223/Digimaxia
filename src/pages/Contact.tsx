@@ -10,27 +10,27 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    content: "hello@digispark.com",
+    content: "contact@Digimaxia.com",
     subtext: "We reply within 24 hours",
   },
-  {
-    icon: Phone,
-    title: "Call Us",
-    content: "+1 (555) 123-4567",
-    subtext: "Mon-Fri 9am-6pm EST",
-  },
-  {
-    icon: MapPin,
-    title: "Visit Us",
-    content: "123 Digital Avenue",
-    subtext: "Tech City, TC 12345",
-  },
-  {
-    icon: Clock,
-    title: "Working Hours",
-    content: "Mon - Fri: 9am - 6pm",
-    subtext: "Weekend by appointment",
-  },
+  // {
+  //   icon: Phone,
+  //   title: "Call Us",
+  //   content: "+1 (555) 123-4567",
+  //   subtext: "Mon-Fri 9am-6pm EST",
+  // },
+  // {
+  //   icon: MapPin,
+  //   title: "Visit Us",
+  //   content: "123 Digital Avenue",
+  //   subtext: "Tech City, TC 12345",
+  // },
+  // {
+  //   icon: Clock,
+  //   title: "Working Hours",
+  //   content: "Mon - Fri: 9am - 6pm",
+  //   subtext: "Weekend by appointment",
+  // },
 ];
 
 const Contact = () => {
@@ -52,7 +52,11 @@ const Contact = () => {
     setFormData({ name: "", email: "", company: "", service: "", message: "" });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -71,12 +75,11 @@ const Contact = () => {
               Get In Touch
             </span>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Let's Start a
-              <span className="gradient-text"> Conversation</span>
+              Let's Start a<span className="gradient-text"> Conversation</span>
             </h1>
             <p className="text-muted-foreground text-lg">
-              Ready to transform your digital presence? We'd love to hear from you. 
-              Reach out and let's discuss how we can help your brand grow.
+              Ready to transform your digital presence? We'd love to hear from
+              you. Reach out and let's discuss how we can help your brand grow.
             </p>
           </div>
         </div>
@@ -88,7 +91,9 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             {/* Contact Form */}
             <div className="glass-card p-8 md:p-10">
-              <h2 className="text-2xl font-bold mb-6 text-foreground">Send Us a Message</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground">
+                Send Us a Message
+              </h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -168,7 +173,12 @@ const Contact = () => {
                   />
                 </div>
 
-                <Button type="submit" variant="gradient" size="lg" className="w-full group">
+                <Button
+                  type="submit"
+                  variant="gradient"
+                  size="lg"
+                  className="w-full group"
+                >
                   Send Message
                   <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -178,10 +188,12 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Contact Information</h2>
+                <h2 className="text-2xl font-bold mb-6 text-foreground">
+                  Contact Information
+                </h2>
                 <p className="text-muted-foreground mb-8">
-                  Have questions? We're here to help. Reach out through any of the 
-                  channels below and our team will get back to you promptly.
+                  Have questions? We're here to help. Reach out through any of
+                  the channels below and our team will get back to you promptly.
                 </p>
               </div>
 
@@ -191,9 +203,13 @@ const Contact = () => {
                     <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center mb-4">
                       <info.icon className="w-6 h-6 text-primary" />
                     </div>
-                    <h3 className="font-semibold text-foreground mb-1">{info.title}</h3>
+                    <h3 className="font-semibold text-foreground mb-1">
+                      {info.title}
+                    </h3>
                     <p className="text-foreground">{info.content}</p>
-                    <p className="text-sm text-muted-foreground">{info.subtext}</p>
+                    <p className="text-sm text-muted-foreground">
+                      {info.subtext}
+                    </p>
                   </div>
                 ))}
               </div>
