@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-xl">D</span>
               </div>
-              <span className="text-xl font-bold text-foreground">DigiSpark</span>
+              <span className="text-xl font-bold text-foreground">Digimaxia</span>
             </Link>
             <p className="text-muted-foreground text-sm mb-6">
               Igniting digital growth through innovative marketing strategies that drive results.
@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary" />
-                <span className="text-muted-foreground text-sm">hello@digispark.com</span>
+                <span className="text-muted-foreground text-sm">hello@digimaxia.com</span>
               </li>
             </ul>
           </div>
@@ -87,7 +87,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border/30 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 DigiSpark. All rights reserved.
+            © 2024 Digimaxia. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Privacy Policy</a>
