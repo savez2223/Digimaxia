@@ -27,8 +27,8 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm mb-6">
-              Igniting digital growth through innovative marketing strategies
-              that drive results.
+              We provide digital services globally including website
+              development, app development.
             </p>
             <div className="flex gap-4">
               <a
