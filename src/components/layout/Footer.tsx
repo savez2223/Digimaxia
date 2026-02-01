@@ -72,7 +72,7 @@ const Footer = () => {
                       {link}
                     </Link>
                   </li>
-                )
+                ),
               )}
             </ul>
           </div>
@@ -91,7 +91,7 @@ const Footer = () => {
                       {service}
                     </Link>
                   </li>
-                )
+                ),
               )}
             </ul>
           </div>
@@ -100,14 +100,18 @@ const Footer = () => {
           <div>
             <h4 className="text-foreground font-semibold mb-6">Contact Us</h4>
             <ul className="space-y-4">
-              {/* <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-primary mt-0.5" />
-                <span className="text-muted-foreground text-sm">123 Digital Avenue, Tech City, TC 12345</span>
+                <span className="text-muted-foreground text-sm">
+                  Abul Fazal Enclave , South East , Delhi 110025
+                </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary" />
-                <span className="text-muted-foreground text-sm">+1 (555) 123-4567</span>
-              </li> */}
+                <span className="text-muted-foreground text-sm">
+                  +91 7834894979
+                </span>
+              </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary" />
                 <span className="text-muted-foreground text-sm">
@@ -121,17 +125,17 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border/30 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 Digimaxia. All rights reserved.
+            © 2026 Digimaxia. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a
-              href="#"
+              href="/privacy"
               className="text-muted-foreground hover:text-primary transition-colors text-sm"
             >
               Privacy Policy
             </a>
             <a
-              href="#"
+              href="/terms"
               className="text-muted-foreground hover:text-primary transition-colors text-sm"
             >
               Terms of Service

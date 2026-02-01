@@ -13,18 +13,18 @@ const contactInfo = [
     content: "contact@Digimaxia.com",
     subtext: "We reply within 24 hours",
   },
-  // {
-  //   icon: Phone,
-  //   title: "Call Us",
-  //   content: "+1 (555) 123-4567",
-  //   subtext: "Mon-Fri 9am-6pm EST",
-  // },
-  // {
-  //   icon: MapPin,
-  //   title: "Visit Us",
-  //   content: "123 Digital Avenue",
-  //   subtext: "Tech City, TC 12345",
-  // },
+  {
+    icon: Phone,
+    title: "Call Us",
+    content: "+917834894979",
+    subtext: "Mon-Fri 9am-6pm EST",
+  },
+  {
+    icon: MapPin,
+    title: "Visit Us",
+    content: "Abul Fazal Enclave",
+    subtext: "South East , Delhi 110025 ",
+  },
   // {
   //   icon: Clock,
   //   title: "Working Hours",
@@ -55,7 +55,7 @@ const Contact = () => {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };

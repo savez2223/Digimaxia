@@ -56,7 +56,7 @@ const About = () => {
             </span>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               The Story Behind
-              <span className="gradient-text"> DigiSpark</span>
+              <span className="gradient-text"> DigiMaxia</span>
             </h1>
             <p className="text-muted-foreground text-lg">
               We're a team of passionate digital marketers, creatives, and
