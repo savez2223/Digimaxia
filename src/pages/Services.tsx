@@ -62,11 +62,11 @@ const Services = () => {
             </span>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Comprehensive
-              <span className="gradient-text"> Digital Solutions</span>
+              <span className="gradient-text"> Development Solutions</span>
             </h1>
             <p className="text-muted-foreground text-lg">
-              From strategy to execution, we provide end-to-end digital
-              marketing services that drive growth and deliver measurable
+              From concept to launch, we provide end-to-end development
+              services that bring your ideas to life and deliver exceptional
               results.
             </p>
           </div>

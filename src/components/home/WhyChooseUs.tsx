@@ -3,13 +3,13 @@ import { Check, Zap, Users, Award, Clock } from "lucide-react";
 const features = [
   {
     icon: Zap,
-    title: "Fast Results",
-    description: "See measurable improvements in your digital presence within weeks, not months.",
+    title: "Fast Delivery",
+    description: "See your project come to life within weeks, not months. We ship quality code fast.",
   },
   {
     icon: Users,
     title: "Dedicated Team",
-    description: "Work with a passionate team of experts who treat your brand like their own.",
+    description: "Work with a passionate team of developers and designers who treat your project like their own.",
   },
   {
     icon: Award,
@@ -19,7 +19,7 @@ const features = [
   {
     icon: Clock,
     title: "24/7 Support",
-    description: "Round-the-clock assistance to ensure your campaigns never miss a beat.",
+    description: "Round-the-clock assistance to ensure your website and apps run smoothly.",
   },
 ];
 
@@ -42,11 +42,11 @@ const WhyChooseUs = () => {
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               We don't just deliver services – we build partnerships. Our team combines creativity, 
-              technology, and strategic thinking to help your brand thrive in the digital landscape.
+              technology, and strategic thinking to bring your ideas to life with stunning results.
             </p>
 
             <ul className="space-y-4">
-              {["Data-driven strategies", "Transparent reporting", "Customized solutions", "Continuous optimization"].map((item) => (
+              {["Clean, scalable code", "Transparent communication", "Customized solutions", "Ongoing maintenance"].map((item) => (
                 <li key={item} className="flex items-center gap-3">
                   <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center">
                     <Check className="w-4 h-4 text-primary" />

@@ -37,8 +37,8 @@ const ServicesPreview = () => {
             <span className="gradient-text"> Grow Online</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive digital marketing solutions tailored to elevate your
-            brand and achieve measurable results.
+            End-to-end development solutions tailored to bring your ideas to
+            life and achieve measurable results.
           </p>
         </div>
 

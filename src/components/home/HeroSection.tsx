@@ -26,7 +26,7 @@ const HeroSection = () => {
           <div className="animate-fade-up opacity-0" style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}>
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-sm text-muted-foreground mb-8">
               <Sparkles className="w-4 h-4 text-primary" />
-              #1 Digital Marketing Agency
+              #1 Development Agency
             </span>
           </div>
 
@@ -44,7 +44,7 @@ const HeroSection = () => {
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up opacity-0"
             style={{ animationDelay: '300ms', animationFillMode: 'forwards' }}
           >
-            Transform your brand with data-driven strategies, creative excellence, and cutting-edge digital solutions that drive real results.
+            We build stunning websites, powerful apps, and beautiful designs that bring your ideas to life and drive real results.
           </p>
 
           {/* CTA Buttons */}

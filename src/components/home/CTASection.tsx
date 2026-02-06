@@ -14,11 +14,11 @@ const CTASection = () => {
           <div className="relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
               Ready to
-              <span className="gradient-text"> Transform Your Brand?</span>
+              <span className="gradient-text"> Build Something Amazing?</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto mb-10 text-lg">
               Let's create something extraordinary together. Get in touch with our team 
-              and discover how we can elevate your digital presence.
+              and discover how we can bring your ideas to life.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
