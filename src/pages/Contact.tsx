@@ -78,8 +78,8 @@ const Contact = () => {
               Let's Start a<span className="gradient-text"> Conversation</span>
             </h1>
             <p className="text-muted-foreground text-lg">
-              Ready to transform your digital presence? We'd love to hear from
-              you. Reach out and let's discuss how we can help your brand grow.
+              Ready to bring your ideas to life? We'd love to hear from
+              you. Reach out and let's discuss how we can build something amazing together.
             </p>
           </div>
         </div>
@@ -149,11 +149,10 @@ const Contact = () => {
                       className="w-full h-10 rounded-xl bg-secondary/50 border border-border/50 px-3 text-foreground focus:border-primary focus:outline-none"
                     >
                       <option value="">Select a service</option>
-                      <option value="seo">SEO Optimization</option>
-                      <option value="social">Social Media Marketing</option>
-                      <option value="ppc">PPC Advertising</option>
-                      <option value="content">Content Marketing</option>
-                      <option value="email">Email Marketing</option>
+                      <option value="web">Website Development</option>
+                      <option value="app">App Development</option>
+                      <option value="design">Graphic Design</option>
+                      <option value="uiux">UI/UX Design</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
@@ -241,16 +240,16 @@ const Contact = () => {
           <div className="max-w-3xl mx-auto space-y-4">
             {[
               {
-                q: "How long does it take to see results?",
-                a: "Results vary by service. SEO typically shows significant improvements in 3-6 months, while PPC can deliver results within days of campaign launch.",
+                q: "How long does it take to build a website or app?",
+                a: "Timeline depends on complexity. A simple website takes 2-4 weeks, while a full-featured web app or mobile app typically takes 6-12 weeks from start to launch.",
               },
               {
                 q: "Do you offer custom packages?",
-                a: "Absolutely! We understand every business is unique. We create tailored strategies based on your specific goals, budget, and industry.",
+                a: "Absolutely! We understand every project is unique. We create tailored solutions based on your specific requirements, budget, and timeline.",
               },
               {
                 q: "What's included in the free consultation?",
-                a: "Our free consultation includes a website audit, competitor analysis overview, and personalized recommendations for your digital marketing strategy.",
+                a: "Our free consultation includes understanding your project needs, technical recommendations, timeline estimation, and a clear roadmap for development.",
               },
             ].map((faq) => (
               <div key={faq.q} className="glass-card p-6">
