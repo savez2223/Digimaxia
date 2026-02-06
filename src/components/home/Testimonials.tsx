@@ -5,21 +5,21 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "CEO, TechStart",
     content:
-      "DigiMaxia transformed our online presence completely. Our organic traffic increased by 300% in just 6 months. The team is incredibly professional and results-driven.",
+      "Digimaxia built our entire platform from scratch. The website is blazing fast, beautifully designed, and our users love it. The team is incredibly professional.",
     rating: 5,
   },
   {
     name: "Michael Chen",
-    role: "Marketing Director, GrowthCo",
+    role: "CTO, GrowthCo",
     content:
-      "The best digital marketing agency we've worked with. Their PPC campaigns delivered exceptional ROI, and their communication is always top-notch.",
+      "The best development agency we've worked with. They delivered our mobile app on time with exceptional quality, and their communication is always top-notch.",
     rating: 5,
   },
   {
     name: "Emily Rodriguez",
     role: "Founder, StyleHub",
     content:
-      "From social media strategy to content creation, Digimaxia has been an invaluable partner. They truly understand our brand and audience.",
+      "From our website to our brand identity, Digimaxia has been an invaluable partner. They truly understand our vision and brought it to life beautifully.",
     rating: 5,
   },
 ];

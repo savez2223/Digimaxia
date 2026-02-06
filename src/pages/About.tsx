@@ -59,9 +59,9 @@ const About = () => {
               <span className="gradient-text"> DigiMaxia</span>
             </h1>
             <p className="text-muted-foreground text-lg">
-              We're a team of passionate digital marketers, creatives, and
-              strategists dedicated to helping brands shine in the digital
-              world.
+              We're a team of passionate developers, designers, and
+              problem-solvers dedicated to building exceptional digital
+              experiences.
             </p>
           </div>
         </div>
@@ -78,21 +78,20 @@ const About = () => {
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Founded in 2014, Digimaxia started with a simple belief: every
-                brand deserves to be seen. What began as a small team of three
-                passionate marketers has grown into a full-service digital
-                marketing agency serving clients worldwide.
+                idea deserves to be built. What began as a small team of three
+                passionate developers has grown into a full-service development
+                agency serving clients worldwide.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Over the years, we've helped over 500 businesses transform their
-                digital presence, from local startups to global enterprises. Our
-                secret? We combine data-driven strategies with creative
-                excellence, always keeping your goals at the center of
-                everything we do.
+                Over the years, we've helped over 500 businesses build their
+                digital products, from local startups to global enterprises. Our
+                secret? We combine technical excellence with creative design,
+                always keeping your goals at the center of everything we do.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Today, we're proud to be recognized as one of the leading
-                digital marketing agencies, but we've never lost the spark that
-                started it all – the drive to help your brand succeed.
+                development agencies, but we've never lost the spark that
+                started it all – the drive to build something amazing.
               </p>
             </div>
 
@@ -204,8 +203,8 @@ const About = () => {
                 Want to Join Our Team?
               </h2>
               <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-                We're always looking for talented individuals who share our
-                passion for digital marketing.
+                We're always looking for talented developers and designers who
+                share our passion for building great products.
               </p>
               <Link to="/contact">
                 <Button variant="gradient" size="lg" className="group">
