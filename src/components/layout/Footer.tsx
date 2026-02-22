@@ -97,29 +97,6 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div>
-            <h4 className="text-foreground font-semibold mb-6">Contact Us</h4>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-primary mt-0.5" />
-                <span className="text-muted-foreground text-sm">
-                  Abul Fazal Enclave , South East , Delhi 110025
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone size={18} className="text-primary" />
-                <span className="text-muted-foreground text-sm">
-                  +91 7834894979
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Mail size={18} className="text-primary" />
-                <span className="text-muted-foreground text-sm">
-                  contact@digimaxia.com
-                </span>
-              </li>
-            </ul>
-          </div>
         </div>
 
         {/* Bottom Bar */}

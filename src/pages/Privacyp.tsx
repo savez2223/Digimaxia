@@ -541,35 +541,6 @@ const PrivacyPolicy = () => {
               remedy is to discontinue use of the website.
             </p>
           </div>
-
-          <div>
-            <h2 className="text-3xl font-bold mb-4">13. CONTACT INFORMATION</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              If you have any questions regarding this privacy policy, you may
-              contact us via the information provided below:
-            </p>
-            <div className="mt-4 text-muted-foreground">
-              <p>
-                <strong>DigiMaxia</strong>
-              </p>
-              <p>Attn: Legal Department</p>
-              <p>Abul Fazal Enclave , South East , Delhi 110025</p>
-              <p>
-                Email:{" "}
-                <a
-                  href="mailto:contact@digimaxia.com"
-                  className="text-primary hover:underline"
-                >
-                  contact@digimaxia.com
-                </a>
-              </p>
-            </div>
-            <p className="text-muted-foreground mt-6">
-              <strong>Last Update:</strong> February 02, 2026
-              <br />
-              <strong>Effective Date:</strong> February 02, 2026
-            </p>
-          </div>
         </div>
       </section>
     </Layout>

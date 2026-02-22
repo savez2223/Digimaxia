@@ -6,33 +6,6 @@ import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
-const contactInfo = [
-  {
-    icon: Mail,
-    title: "Email Us",
-    content: "contact@Digimaxia.com",
-    subtext: "We reply within 24 hours",
-  },
-  {
-    icon: Phone,
-    title: "Call Us",
-    content: "+917834894979",
-    subtext: "Mon-Fri 9am-6pm EST",
-  },
-  {
-    icon: MapPin,
-    title: "Visit Us",
-    content: "Abul Fazal Enclave",
-    subtext: "South East , Delhi 110025 ",
-  },
-  // {
-  //   icon: Clock,
-  //   title: "Working Hours",
-  //   content: "Mon - Fri: 9am - 6pm",
-  //   subtext: "Weekend by appointment",
-  // },
-];
-
 const Contact = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
@@ -78,8 +51,9 @@ const Contact = () => {
               Let's Start a<span className="gradient-text"> Conversation</span>
             </h1>
             <p className="text-muted-foreground text-lg">
-              Ready to bring your ideas to life? We'd love to hear from
-              you. Reach out and let's discuss how we can build something amazing together.
+              Ready to bring your ideas to life? We'd love to hear from you.
+              Reach out and let's discuss how we can build something amazing
+              together.
             </p>
           </div>
         </div>
@@ -194,23 +168,6 @@ const Contact = () => {
                   Have questions? We're here to help. Reach out through any of
                   the channels below and our team will get back to you promptly.
                 </p>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {contactInfo.map((info) => (
-                  <div key={info.title} className="glass-card p-6 hover-lift">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center mb-4">
-                      <info.icon className="w-6 h-6 text-primary" />
-                    </div>
-                    <h3 className="font-semibold text-foreground mb-1">
-                      {info.title}
-                    </h3>
-                    <p className="text-foreground">{info.content}</p>
-                    <p className="text-sm text-muted-foreground">
-                      {info.subtext}
-                    </p>
-                  </div>
-                ))}
               </div>
 
               {/* Map Placeholder */}
